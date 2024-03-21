@@ -1,0 +1,47 @@
+@import "../../styles/main.scss";
+
+header {
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 57px;
+    }
+    .nav-item {
+      color: #000;
+      font-size: 24px;
+      font-weight: 500;
+      text-decoration: none;
+
+      &.active,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 16px;
+    .container {
+      img {
+        width: 125px;
+      }
+      nav {
+        gap: 26px;
+      }
+      .nav-item {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
