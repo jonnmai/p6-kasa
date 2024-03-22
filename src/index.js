@@ -7,6 +7,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import BasicLayout from "./layout/BasicLayout";
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About";
+import Error from "./pages/Error/Error";
+import Logement from "./pages/Logement/Logement";
 
 
 const router = createBrowserRouter([
@@ -24,11 +26,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'logement/:logementId',
-        element: <h1>Logement</h1>,
+        element: <Logement />,
       },
       {
         path: '*',
-        element: <h1>Error</h1>,
+        element: <Error />,
       }
     ]
   },
