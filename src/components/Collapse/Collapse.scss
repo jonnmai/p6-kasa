@@ -30,7 +30,6 @@
 }
 
 .collapse {
-    width: 80%;
     background-color: $color-primary;
     display: flex;
     justify-content: space-between;
@@ -66,5 +65,9 @@
         font-size: 16px;
         line-height: 23px;
         animation: slide 1s ease-in;
+
+        & li {
+            list-style: none;
+        }
     }
 }

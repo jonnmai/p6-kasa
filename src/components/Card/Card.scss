@@ -1,7 +1,7 @@
 .cards-container {
   width: 100%;
   background-color: #f6f6f6;
-  margin-top: 50px;
+  margin: 50px 0 50px 0;
   display: flex;
   border-radius: 1rem;
   ul {
@@ -65,7 +65,7 @@
 @media (min-width: 768px) and (max-width: 1300px) {
   .cards-container {
     .card {
-      width: 44% !important;
+      width: 44%;
     }
   }
 }
