@@ -6,7 +6,7 @@ const star = <FontAwesomeIcon icon={faStar} />
 const starEmpty = <FontAwesomeIcon icon={faStar} />
 
 function Stars(props) {
-    const starValue = props.Value
+    const starValue = props.starValue
     console.log(starValue);
 
     const range = [1, 2, 3, 4, 5]
