@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: $color-secondary;
     padding-block: 5px;
     border-radius: 0.3rem;
     margin-bottom: 1rem;
@@ -58,7 +58,7 @@
         position: relative;
         z-index: -1;
         padding: 1rem;
-        background: $bg-collapse;
+        background: $bg-collapse; //
         margin-top: -1.2rem;
         margin-bottom: 1rem;
         border-radius: 0 0 0.3rem 0.3rem;

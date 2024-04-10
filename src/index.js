@@ -10,7 +10,7 @@ import About from "./pages/About/About";
 import Error from "./pages/Error/Error";
 import Logement from "./pages/Logement/Logement";
 
-
+//Configuration du routage
 const router = createBrowserRouter([
   {
     path: "/",

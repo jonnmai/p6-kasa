@@ -7,7 +7,7 @@ const starEmpty = <FontAwesomeIcon icon={faStar} />
 
 function Stars(props) {
     const starValue = props.starValue
-    console.log(starValue);
+    // console.log(starValue);
 
     const range = [1, 2, 3, 4, 5]
 
@@ -16,7 +16,7 @@ function Stars(props) {
             {range.map((rangeElem) =>
                 starValue >= rangeElem ? 
                     <span key={rangeElem.toString()} className='housing_page_header_hoster_ratings_star'>{star}</span> 
-                    : <span key={rangeElem.toString()} className='housing_page_header_hoster_ratings_star housing_page_header_hoster_ratings_starempty'>{starEmpty}</span>
+                    : <span key={rangeElem.toString()}  className='housing_page_header_hoster_ratings_star housing_page_header_hoster_ratings_starempty'>{starEmpty}</span>
             )}
         </div>
     )

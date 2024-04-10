@@ -15,10 +15,10 @@ function Collapse(props) {
  
   return (
     <>
-     
+      {/* {console.log(open)}  */}
         <div onClick={toggle} className="collapse">
           <h2 className="collapse_title">{props.label}</h2>
-          {!open ? (
+          {open ? (
             <i className="collapse_icon">{angleDown}</i>
           ) : (
             <i className="collapse_icon">{angleUp}</i>
